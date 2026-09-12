@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 - Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Навигационная панель (Navbar) -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html" class="nav-link active">Task 1</a></li>
+            <li><a href="task2.html" class="nav-link">Task 2</a></li>
+            <li><a href="exercise1/index.html" class="nav-link">Task 3</a></li>
+            <li><a href="task4.html" class="nav-link">Task 4</a></li>
+            <li><a href="task5.html" class="nav-link">Task 5</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        <!-- Главный заголовок с ID селектором -->
+        <h1 id="main-header">Персональная страница студента</h1>
+
+        <!-- Карточка профиля (Class selector) -->
+        <div class="profile-card">
+            <img src="https://via.placeholder.com/150" alt="Фото профиля студента" class="profile-img">
+            <h2>Имя Фамилия</h2>
+            <p class="group-info">Группа: SE-2527</p>
+            <p>Привет! Я увлекаюсь веб-разработкой и программированием. Это моя первая практическая работа по HTML и CSS.</p>
+        </div>
+
+        <section class="bio-section">
+            <h2>Обо мне и моих увлечениях</h2>
+            <p>Веб-разработка открывает большие возможности для создания удобных и красивых интерфейсов. В рамках этого задания я изучаю основы верстки и работы со стилями.</p>
+            <p>В свободное время мне нравится решать алгоритмические задачи, читать техническую литературу и изучать новые технологии.</p>
+        </section>
+
+        <!-- Нумерованный список (ol) -->
+        <section class="list-section">
+            <h2>Мои цели на семестр:</h2>
+            <ol>
+                <li>Освоить базовую верстку на HTML и CSS</li>
+                <li>Изучить работу с Git и GitHub Pages</li>
+                <li>Сделать отличный Midterm-проект</li>
+                <li>Успешно защитить все лабораторные работы</li>
+            </ol>
+        </section>
+
+        <!-- Ненумерованный список (ul) -->
+        <section class="list-section">
+            <h2>Мои любимые технологии:</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Полезные ссылки -->
+        <section class="links-section">
+            <h2>Полезные ресурсы:</h2>
+            <p>Полезные сайты для изучения веб-разработки:</p>
+            <a href="https://developer.mozilla.org" target="_blank" class="external-link">MDN Web Docs</a> | 
+            <a href="https://github.com" target="_blank" class="external-link">GitHub</a>
+        </section>
+    </div>
+
+</body>
+</html>
