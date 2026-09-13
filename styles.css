@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     background-color: #f4f6f9;
@@ -19,6 +20,7 @@ body {
     padding: 10px 18px;
     font-weight: bold;
     border-radius: 4px;
+    font-size: 15px;
 }
 
 .navbar a:hover {
@@ -40,6 +42,22 @@ body {
 
 #main-title {
     color: #2c3e50;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #34495e;
+}
+
+h3 {
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .profile-card {
@@ -53,6 +71,7 @@ body {
 .profile-img {
     width: 150px;
     height: 150px;
+    max-width: 100%;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #3498db;
@@ -140,6 +159,7 @@ body {
 #table-heading {
     text-align: center;
     color: #2c3e50;
+    font-size: 26px;
 }
 
 .grades-table {
@@ -152,6 +172,7 @@ body {
     border: 1px solid #ddd;
     padding: 12px;
     text-align: center;
+    font-size: 15px;
 }
 
 .grades-table th {
@@ -168,7 +189,8 @@ body {
     font-weight: bold;
 }
 
-.feedback-form {
+/* Task 4: Form styling using ID selector (#feedback-form) and class selectors */
+#feedback-form {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
@@ -186,6 +208,7 @@ body {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    font-size: 14px;
 }
 
 .form-group input[type="text"],
@@ -197,6 +220,7 @@ body {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-size: 14px;
 }
 
 .radio-group label {

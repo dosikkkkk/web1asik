@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .tribute-header {
@@ -15,6 +17,12 @@ body {
     margin: 0;
 }
 
+.tribute-header h3 {
+    font-size: 1.2em;
+    color: #bdc3c7;
+    margin-top: 10px;
+}
+
 .content {
     max-width: 800px;
     margin: 30px auto;
@@ -22,6 +30,27 @@ body {
     background: white;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     border-radius: 8px;
+}
+
+.content h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.content h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #34495e;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
 }
 
 .img-wrapper {
@@ -39,11 +68,13 @@ body {
 
 .timeline-list {
     line-height: 1.8;
+    font-size: 15px;
 }
 
 .achievements-list {
     list-style-type: square;
     line-height: 1.8;
+    font-size: 15px;
 }
 
 .btn-container {
@@ -59,6 +90,7 @@ body {
     text-decoration: none;
     border-radius: 25px;
     font-weight: bold;
+    font-size: 15px;
     transition: background-color 0.3s;
 }
 
