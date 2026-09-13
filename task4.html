@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 - Table & Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="task3.html">Task 3</a>
+        <a href="task4.html" class="active">Task 4</a>
+    </nav>
+
+    <div class="container">
+        <h1 id="table-heading">Успеваемость студентов</h1>
+        
+        <table class="grades-table">
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Предмет</th>
+                    <th>Оценка</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Алихан</td>
+                    <td>Web Development</td>
+                    <td>A</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>Диана</td>
+                    <td>Database Systems</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Ернур</td>
+                    <td>Algorithms</td>
+                    <td>B+</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Средний балл группы</td>
+                    <td>A-</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="form-heading">Форма обратной связи</h2>
+        
+        <form class="feedback-form">
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required placeholder="Введите имя">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="name@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="role">Роль:</label>
+                <select id="role" name="role">
+                    <option value="student">Студент</option>
+                    <option value="teacher">Преподаватель</option>
+                    <option value="other">Другое</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Рекомендуете ли вы наш курс?</label>
+                <div class="radio-group">
+                    <input type="radio" id="yes" name="recommend" value="yes" checked>
+                    <label for="yes">Да</label>
+                    <input type="radio" id="no" name="recommend" value="no">
+                    <label for="no">Нет</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Комментарии:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Ваши пожелания..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Отправить</button>
+        </form>
+    </div>
+
+</body>
+</html>

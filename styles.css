@@ -1,106 +1,219 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f5f0;
-    color: #3e2723;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-}
-
-h1, h2 {
-    color: #4e342e;
-}
-
-h2 {
-    border-bottom: 2px solid #8d6e63;
-    padding-bottom: 5px;
-    margin-top: 20px;
-}
-
-p {
-    margin-bottom: 15px;
-}
-
-#main-header {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 2.2em;
+    background-color: #f4f6f9;
+    color: #333;
 }
 
 .navbar {
-    background-color: #3e2723;
-    padding: 10px 0;
+    background-color: #2c3e50;
+    overflow: hidden;
+    padding: 10px 20px;
 }
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.navbar li {
-    display: inline;
-    margin: 0 15px;
-}
-
-.nav-link {
-    color: #ffffff;
+.navbar a {
+    float: left;
+    color: white;
     text-decoration: none;
+    padding: 10px 18px;
     font-weight: bold;
-    font-size: 1.1em;
-    padding: 5px 10px;
-}
-
-.nav-link:hover {
-    background-color: #8d6e63;
     border-radius: 4px;
 }
 
-.main-container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.navbar a:hover {
+    background-color: #34495e;
+}
+
+.navbar a.active {
+    background-color: #3498db;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 25px;
     border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#main-title {
+    color: #2c3e50;
 }
 
 .profile-card {
-    border: 2px solid #d7ccc8;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    background-color: #efebe9;
-    margin-bottom: 30px;
+    border: 2px solid #3498db;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ebf5fb;
+    margin-bottom: 20px;
 }
 
 .profile-img {
     max-width: 150px;
     border-radius: 50%;
-    border: 3px solid #6d4c41;
+    border: 3px solid #3498db;
 }
 
-.group-info {
-    font-weight: bold;
-    color: #5d4037;
-}
-
-ol, ul {
-    padding-left: 20px;
-}
-
-li {
-    margin-bottom: 8px;
-}
-
-.external-link {
-    color: #6d4c41;
+.custom-link {
+    color: #e74c3c;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
-.external-link:hover {
-    color: #d84315;
+.custom-link:hover {
+    color: #c0392b;
     text-decoration: underline;
+}
+
+.header {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar-task2 {
+    background-color: #2c3e50;
+    overflow: hidden;
+}
+
+.navbar-task2 a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar-task2 a:hover {
+    background-color: #1abc9c;
+}
+
+.navbar-task2 a.active {
+    background-color: #16a085;
+}
+
+.layout-wrapper {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: #ecf0f1;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7;
+}
+
+.main-content {
+    float: right;
+    width: 70%;
+    background-color: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#table-heading {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.grades-table th, .grades-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.grades-table th {
+    background-color: #3498db;
+    color: white;
+}
+
+.grades-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.grades-table .highlight-row {
+    background-color: #ffeaa7;
+    font-weight: bold;
+}
+
+.feedback-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.radio-group label {
+    display: inline;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+.submit-btn {
+    background-color: #2ecc71;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #27ae60;
 }

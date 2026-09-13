@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 - Layout with Floats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Task 2: Webpage Layout (Float & Positioning)</h1>
+    </div>
+
+    <div class="navbar-task2">
+        <a href="index.html">Task 1</a>
+        <a href="task2.html" class="active">Task 2</a>
+        <a href="task3.html">Task 3</a>
+        <a href="task4.html">Task 4</a>
+    </div>
+
+    <div class="layout-wrapper">
+        <div class="sidebar">
+            <h3>Меню</h3>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h2>Основной контент</h2>
+            <p>Этот макет реализован без использования Flexbox или CSS Grid. Для размещения колонок использовано свойство <code>float</code>, а также сброс обтекания <code>clear: both</code> для подвала (footer).</p>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Student Project. Все права защищены.</p>
+    </div>
+
+</body>
+</html>
