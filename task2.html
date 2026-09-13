@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 - Webpage Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Task 2: Webpage Layout (Float & Positioning)</h1>
+    </div>
+
+    <div class="navbar-task2">
+        <a href="index.html">Task 1</a>
+        <a href="task2.html" class="active">Task 2</a>
+        <a href="task3.html">Task 3</a>
+        <a href="task4.html">Task 4</a>
+    </div>
+
+    <div class="layout-wrapper">
+        <div class="sidebar">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="index.html">Task 1</a></li>
+                <li><a href="task2.html">Task 2</a></li>
+                <li><a href="task3.html">Task 3</a></li>
+                <li><a href="task4.html">Task 4</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h2>Main Content Area</h2>
+            <p>This layout is strictly constructed without Flexbox or CSS Grid. The multi-column layout uses the traditional <code>float</code> property (float left for sidebar menu and float right for main content area) along with standard block clears to retain structure.</p>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Student Project. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
