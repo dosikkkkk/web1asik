@@ -1,19 +1,18 @@
-/* 1. Селекторы по тегу (Element selectors) */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
-    color: #333333;
+    background-color: #f8f5f0;
+    color: #3e2723;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
 h1, h2 {
-    color: #2c3e50;
+    color: #4e342e;
 }
 
 h2 {
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #8d6e63;
     padding-bottom: 5px;
     margin-top: 20px;
 }
@@ -22,16 +21,14 @@ p {
     margin-bottom: 15px;
 }
 
-/* 2. Селектор по ID (ID selector) */
 #main-header {
     text-align: center;
     margin-top: 20px;
     font-size: 2.2em;
 }
 
-/* 3. Селекторы по классу (Class selectors) */
 .navbar {
-    background-color: #2c3e50;
+    background-color: #3e2723;
     padding: 10px 0;
 }
 
@@ -55,9 +52,8 @@ p {
     padding: 5px 10px;
 }
 
-/* Эффект hover на ссылки в меню */
 .nav-link:hover {
-    background-color: #3498db;
+    background-color: #8d6e63;
     border-radius: 4px;
 }
 
@@ -70,29 +66,26 @@ p {
     border-radius: 8px;
 }
 
-/* Карточка профиля */
 .profile-card {
-    border: 2px solid #e0e0e0;
+    border: 2px solid #d7ccc8;
     border-radius: 8px;
     padding: 20px;
     text-align: center;
-    background-color: #fafafa;
+    background-color: #efebe9;
     margin-bottom: 30px;
 }
 
-/* Стилизация изображения */
 .profile-img {
     max-width: 150px;
-    border-radius: 50%; /* Скругление картинки */
-    border: 3px solid #3498db;
+    border-radius: 50%;
+    border: 3px solid #6d4c41;
 }
 
 .group-info {
     font-weight: bold;
-    color: #7f8c8d;
+    color: #5d4037;
 }
 
-/* Стилизация списков */
 ol, ul {
     padding-left: 20px;
 }
@@ -101,14 +94,13 @@ li {
     margin-bottom: 8px;
 }
 
-/* Стилизация внешних ссылок и эффект hover */
 .external-link {
-    color: #3498db;
+    color: #6d4c41;
     text-decoration: none;
     font-weight: bold;
 }
 
 .external-link:hover {
-    color: #e74c3c;
+    color: #d84315;
     text-decoration: underline;
 }
